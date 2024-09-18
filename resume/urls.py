@@ -2,7 +2,7 @@ from django.urls import path
 from resume.views import *
 
 urlpatterns = [
-    path('home-test',home_test),
-    path('about-test',about_test),
-    path('contact-test',contact_test),
+    path('',home_view),
+    path('about',about_view),
+    path('contact',contact_view),
 ]
