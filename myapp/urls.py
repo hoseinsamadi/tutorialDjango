@@ -20,5 +20,5 @@ from myapp.views import http_test , json_test
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('http-test',http_test),
-    path('json-test', json_test )
+    path('json-test', json_test )  
 ]
